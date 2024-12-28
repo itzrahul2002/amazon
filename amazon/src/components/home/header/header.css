@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.heade
+{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    text-decoration: none;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: sticky;
+    color: white;
+    z-index: 100;
+    position: fixed;
+}
+.helo
+{
+    padding-bottom: -80%;
+}
+.address
+{
+    /* padding-left: 5%; */
+    margin-left: 9%;
+
+    padding-bottom: 0.6%;
+    text-decoration: none;
+    color: white;
+}
+.selct
+{
+    margin-left: -30%;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: -10%;
+}
+.loc_icon
+{
+    font-size: 30px;
+}
+header
+{
+    text-decoration: none;
+    color: white;
+}
+.helo_text
+{
+    margin-left: 30%;
+}
+.loction_icon
+{
+    margin-left: -50%;
+    color: white;
+}
+.logo
+{
+    width: 130%;
+    height: 37px;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+.headerSearch 
+{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    min-width: 350px;
+    margin: 0 20px;
+    margin-left: -0.1%;
+}
+.searchInput
+{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    box-sizing: border-box;
+    width: 48%;
+    color: #131921;
+}
+.dropDown 
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none !important;
+    height: 40px;
+    border: none;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchIcon 
+{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    outline: none !important;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    padding: 2px;
+    background-color: #cd9042;
+    color: #131921;
+}
+.india
+{
+    margin-top: 5px;
+}
+.flag
+{
+    width: 25%;
+    margin-left: 5%;
+    /* margin-top: 7%; */
+}
+.ac
+{
+    margin-left: -7%;
+}
+.cart_text
+{
+    font-size: 35px;
+    margin-top: 5%;
+}
+.go_cart
+{
+    
+}
+.navOption
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+  
+.navOptionLineOne 
+{
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 8px;
+    white-space: nowrap;
+}
+  
+.navOptionLineTwo 
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: auto;
+    white-space: nowrap;
+}
+.navitem
+{
+    background-color: #242c37;
+    color: white;
+    height: 50px;
+    margin-left: -3%;
+    /* z-index: 10000; */
+    position: sticky;
+}
+.navlist ul
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+    /* justify-content: space-between; */
+}
+.navlist ul li a
+{
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 400;
+}
+.img_header
+{
+    width: 90%;
+    float: right;
+    height: 50px;
+}
+.item1
+{
+    margin: 1%;
+}
+.navlist
+{
+    /* margin-left: -2%; */
+}
+
+
+/* side ka css hai niche */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .side_header
+  {
+        background-color: #111;
+  }
+  .side_header_list
+  {
+        background: white;
+  }
+  
+  @media screen and (max-height: 450px) 
+  {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+  
